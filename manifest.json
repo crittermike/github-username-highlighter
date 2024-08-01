@@ -3,6 +3,12 @@
     "name": "GitHub Username Highlighter",
     "version": "1.0.0",
     "description": "Highlight arbitrary usernames on the GitHub merge queue",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "extension@github-username-highlighter",
+            "strict_min_version": "58.0"
+        }
+    },
     "permissions": [
         "storage",
         "activeTab"
