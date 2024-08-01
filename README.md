@@ -1,4 +1,4 @@
-This extension lets you highlight the usernames of arbitrary people on the GitHub merge queue, because Zack said that is good and I was procrastinating my actual work.
+This extension lets you highlight the usernames of arbitrary people (like your teammates) on the GitHub merge queue, because Zack said that is good and I was procrastinating my actual work.
 
 1. Go to your browser's extensions page
 2. Choose "Developer Mode" or whatever your browser calls it
