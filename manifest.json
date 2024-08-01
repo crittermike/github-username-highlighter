@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "GitHub Username Highlighter",
-    "version": "1.0",
-    "description": "Highlights specific usernames on GitHub.",
+    "version": "1.0.0",
+    "description": "Highlight arbitrary usernames on the GitHub merge queue",
     "permissions": [
         "storage",
         "activeTab"
