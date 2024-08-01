@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "GitHub Username Highlighter",
+    "version": "1.0",
+    "description": "Highlights specific usernames on GitHub.",
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://github.com/*/*/queue"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "options_page": "options.html",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
